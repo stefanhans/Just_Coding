@@ -1,5 +1,6 @@
 # Building Blockchain in Go
 
-by Ivan Kuznetsov
+[Designed after a blog by Ivan Kuznetsov.](https://jeiwan.cc/)
 
-[https://jeiwan.cc/]
+
+
