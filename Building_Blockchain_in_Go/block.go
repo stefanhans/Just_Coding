@@ -1,9 +1,8 @@
-package Building_Blockchain_in_Go
+package main
 
 import (
 	"bytes"
 	"crypto/sha256"
-	"fmt"
 	"strconv"
 	"time"
 )
@@ -22,3 +21,10 @@ func (b *Block) SetHash() {
 	b.Hash = hash[:]
 
 }
+
+func NewBlock(data string, prevBlockHash []byte) *Block {
+	block := &Block{time.Now().Unix(), []byte(data), prevBlockHash, []byte{}}
+	block.SetHash()
+	return block
+}
+
