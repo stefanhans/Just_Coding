@@ -5,6 +5,6 @@
 
 Experiences:
 
-- No `go run main.go`, use `go build` and execute the binary created
+- No `go run main.go`, use `go build;bcgo` instead
 
 
