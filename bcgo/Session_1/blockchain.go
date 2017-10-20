@@ -1,4 +1,4 @@
-package main
+package Session_1
 
 type Blockchain struct {
 	blocks []*Block
