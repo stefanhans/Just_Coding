@@ -4,6 +4,8 @@ Meetup 'Just Coding' at Burda Bootcamp, Munich
 - Building an Artificial Neural Network from Scratch in Go (see `anngo`)
 - Building Blockchain in Go (see `bcgo`)
 
+Choose a branch according to the appropriate session.
+
 
 ### Session 1: Building Blockchain in Go
 
