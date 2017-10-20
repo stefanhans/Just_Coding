@@ -1,4 +1,4 @@
-package Session_1
+package main
 
 import (
 	"fmt"
