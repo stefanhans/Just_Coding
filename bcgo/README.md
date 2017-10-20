@@ -5,16 +5,15 @@
 
 ### Session 1:
 
-Until Proof-of-Work
+Until end of part 2: Proof-of-Work
 
-Experiences:
-
-- No `go run main.go`, use `go build;bcgo` instead
+09/22/2017
 
 
 ### Session 2:
 
-From Proof-of-Work Until
+Until end of part 3: Persistence and CLI
 
-Experiences:
+10/20/2017
+
 
