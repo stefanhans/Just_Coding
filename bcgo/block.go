@@ -5,6 +5,9 @@ import (
 	_ "crypto/sha256"
 	_ "strconv"
 	"time"
+	"bytes"
+	"encoding/gob"
+	"fmt"
 )
 
 type Block struct {
@@ -24,6 +27,19 @@ func (b *Block) SetHash() {
 
 }
 */
+
+func (b *Block) Serialize() []byte {
+	var result bytes.Buffer
+	encoder := gob.NewEncoder(&result)
+
+	if err := encoder.Encode(b); err != nil {
+		fmt.Printf("%s \n", err)
+	}
+
+
+
+	return result.Bytes()
+}
 
 func NewBlock(data string, prevBlockHash []byte) *Block {
 	block := &Block{time.Now().Unix(), []byte(data), prevBlockHash, []byte{}, 0}
