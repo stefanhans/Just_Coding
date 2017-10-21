@@ -3,6 +3,8 @@
 [Designed after a blog by Ivan Kuznetsov.](https://jeiwan.cc/)
 
 
+Choose a branch according to the appropriate session.
+
 ### Session 1:
 
 Until end of part 2: Proof-of-Work
