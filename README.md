@@ -20,3 +20,11 @@ Until end of part 3: Persistence and CLI
 
 10/20/2017
 
+
+
+### Session 3: Building Blockchain in Go
+
+Until end of part 4: Transactions 1
+
+11/24/2017
+
