@@ -2,18 +2,10 @@
 
 [Designed after a blog by Ivan Kuznetsov.](https://jeiwan.cc/)
 
-## Branch: Session_2
+## Branch: Session_3
 
-Until end of part 3: Persistence and CLI
+Until end of part 4: Transactions 1
 
 Experiences:
 
-- Introducing GitHub branches
-- Don't forget `-data` and delete `blockchain.db` if needed
-- Changed order of blockchain output lines, i.e. `Prev. Hash` from first to last line
-
-
-
-
-
-
+- Messing with GitHub branches - be careful next time with session 4
